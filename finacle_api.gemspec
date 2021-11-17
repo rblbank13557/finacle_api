@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<bundler>.freeze, ["~> 1.3"])
+      s.add_development_dependency(%q<bundler>.freeze, ["~> 2.2.25"])
       s.add_development_dependency(%q<rspec>.freeze, ["~> 2.99.0"])
       s.add_development_dependency(%q<simplecov>.freeze, ["~> 0.7.1"])
       s.add_development_dependency(%q<sinatra>.freeze, ["~> 1.4.4"])
@@ -32,11 +32,11 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<nokogiri>.freeze, ["~> 1.6.8"])
       s.add_runtime_dependency(%q<faraday>.freeze, ["~> 0.13.1"])
       s.add_runtime_dependency(%q<faraday_middleware>.freeze, ["~> 0.12.0"])
-      s.add_runtime_dependency(%q<activemodel>.freeze, ["~> 4.1.0"])
+      s.add_runtime_dependency(%q<activemodel>.freeze, ["~> 5.2.6"])
       s.add_runtime_dependency(%q<multi_xml>.freeze, ["~> 0.2"])
       s.add_development_dependency(%q<rake>.freeze, [">= 0"])
     else
-      s.add_dependency(%q<bundler>.freeze, ["~> 1.3"])
+      s.add_dependency(%q<bundler>.freeze, ["~> 2.2.25"])
       s.add_dependency(%q<rspec>.freeze, ["~> 2.99.0"])
       s.add_dependency(%q<simplecov>.freeze, ["~> 0.7.1"])
       s.add_dependency(%q<sinatra>.freeze, ["~> 1.4.4"])
@@ -44,12 +44,12 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<nokogiri>.freeze, ["~> 1.6.8"])
       s.add_dependency(%q<faraday>.freeze, ["~> 0.13.1"])
       s.add_dependency(%q<faraday_middleware>.freeze, ["~> 0.12.0"])
-      s.add_dependency(%q<activemodel>.freeze, ["~> 4.1.0"])
+      s.add_dependency(%q<activemodel>.freeze, ["~> 5.2.6"])
       s.add_dependency(%q<multi_xml>.freeze, ["~> 0.2"])
       s.add_dependency(%q<rake>.freeze, [">= 0"])
     end
   else
-    s.add_dependency(%q<bundler>.freeze, ["~> 1.3"])
+    s.add_dependency(%q<bundler>.freeze, ["~> 2.2.25"])
     s.add_dependency(%q<rspec>.freeze, ["~> 2.99.0"])
     s.add_dependency(%q<simplecov>.freeze, ["~> 0.7.1"])
     s.add_dependency(%q<sinatra>.freeze, ["~> 1.4.4"])
@@ -57,7 +57,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<nokogiri>.freeze, ["~> 1.6.8"])
     s.add_dependency(%q<faraday>.freeze, ["~> 0.13.1"])
     s.add_dependency(%q<faraday_middleware>.freeze, ["~> 0.12.0"])
-    s.add_dependency(%q<activemodel>.freeze, ["~> 4.1.0"])
+    s.add_dependency(%q<activemodel>.freeze, ["~> 5.2.6"])
     s.add_dependency(%q<multi_xml>.freeze, ["~> 0.2"])
     s.add_dependency(%q<rake>.freeze, [">= 0"])
   end
