@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<faraday>.freeze, ["~> 0.13.1"])
       s.add_runtime_dependency(%q<faraday_middleware>.freeze, ["~> 0.12.0"])
       s.add_runtime_dependency(%q<activemodel>.freeze, ["~> 5.2.6"])
+      s.add_runtime_dependency(%q<active_model_serializers>.freeze, ["~> 0.10.12"])
       s.add_runtime_dependency(%q<multi_xml>.freeze, ["~> 0.2"])
       s.add_development_dependency(%q<rake>.freeze, [">= 0"])
     else
@@ -45,6 +46,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<faraday>.freeze, ["~> 0.13.1"])
       s.add_dependency(%q<faraday_middleware>.freeze, ["~> 0.12.0"])
       s.add_dependency(%q<activemodel>.freeze, ["~> 5.2.6"])
+      s.add_runtime_dependency(%q<active_model_serializers>.freeze, ["~> 0.10.12"])
       s.add_dependency(%q<multi_xml>.freeze, ["~> 0.2"])
       s.add_dependency(%q<rake>.freeze, [">= 0"])
     end
@@ -58,6 +60,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<faraday>.freeze, ["~> 0.13.1"])
     s.add_dependency(%q<faraday_middleware>.freeze, ["~> 0.12.0"])
     s.add_dependency(%q<activemodel>.freeze, ["~> 5.2.6"])
+    s.add_runtime_dependency(%q<active_model_serializers>.freeze, ["~> 0.10.12"])
     s.add_dependency(%q<multi_xml>.freeze, ["~> 0.2"])
     s.add_dependency(%q<rake>.freeze, [">= 0"])
   end
